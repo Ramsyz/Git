@@ -16,15 +16,24 @@ git config --global user.email youremail
 Now configuration is done.....
 
 #### Create local repo
-git init ---> initialize the project
-git init project name --> displays initilazed
-Type ls --> check your project name
-
-By default if you initialize git repo, first branch--> master branch is created
+git init ---> initialize the project.
+git init project name --> displays initilazed.
+Type ls --> check your project name.
+.
+By default if you initialize git repo, first branch--> master branch is created.
 
 To commit first create a file in editor,ide
+After creating file and saving it 
 In terminal, 
-git commit -m message --> git ommit -m first commit
+git status --> your file name ready to commit.
+git add filename--> add single file (or) git add ./git add -A/git add -all --> all files.
+Again git status --> changes to be commited.
+
+####### If you want remove any file from commiting --> git rm --cached filename
+
+git commit -m "message" --> git commit -m "first commit".
+
+git status
 
 To check commit
 git log --> displays message
@@ -44,9 +53,12 @@ We can edit readme file in github and submit committed changes.
 To pull changes to local master/machine --> git pull
 
 ##### Git clone
-to clone git to editor,ide
-In github in project click on clone button & copy url
-git clone url --> create in new floder
+to clone git to editor,ide.
+In github in project click on clone button & copy url.
+git clone repo url --> create in new floder
+###### if you want create in your own folder
+git clone repo url your foldername.
+now you check it your editor,ide.
 
 ##### Create new branches
 In terminal 

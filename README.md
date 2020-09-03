@@ -58,15 +58,23 @@ We can edit readme file in github and submit committed changes.
 To pull changes to local master/machine --> git pull.
 
 ##### Git clone
-to clone git to editor,ide.
-In github in project click on clone button & copy url.
+to clone git to editor,ide
+
+In github in project click on clone button & copy url
+
 git clone repo url --> create in new floder
+
 ###### if you want create in your own folder
-git clone repo url your foldername.
-now you check it your editor,ide.
+
+git clone repo url your foldername
+
+now you check it your editor,ide
 
 ##### Create new branches
 In terminal 
+
 git branch branch name
+
 To check it--> git checkout branch name 
+
 now it shows new branch

@@ -47,7 +47,7 @@ Again git status --> changes to be commited
 git status
 
 To check commit
-`git log --> displays message`
+`git log    or  git log -oneline --> displays message`
 
 now your project is in local machine
 
@@ -88,6 +88,10 @@ now you check it your editor,ide
 ##### Create new branches
 In terminal 
 
+`git branch` -->  see all branch names
+
+Create branch
+
 `git branch branch name`
 
 To check it-->
@@ -95,3 +99,23 @@ To check it-->
 `git checkout branch name `
 
 now it shows new branch
+
+Shifting between branches
+
+`git checkout -`
+
+##### Merge branches
+
+ presently your in master branch, Merge two branches
+ 
+` git merge branchname`
+
+After that push 
+
+check status
+
+check commit --> `git log -oneline`
+
+###### Remove branch
+
+git branch -d branch name

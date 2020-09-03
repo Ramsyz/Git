@@ -1,11 +1,9 @@
 ## Git
 First downlaod git from website, after that
 In terminal
-'''
-{
+'
  git --version --> shows git version
-}
-'''
+'
 git config --global --list
 provide the username, emailid
 

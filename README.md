@@ -110,7 +110,7 @@ Shifting between branches
  
 ` git merge branchname`
 
-After that push 
+Now push 
 
 check status
 
@@ -118,4 +118,4 @@ check commit --> `git log -oneline`
 
 ###### Remove branch
 
-git branch -d branch name
+`git branch -d branch name`

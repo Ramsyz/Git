@@ -15,7 +15,7 @@ git config --global user.email youremail
 
 Now configuration is done.....
 
-### Create local repo
+#### Create local repo
 git init ---> initialize the project
 git init project name --> displays initilazed
 Type ls --> check your project name

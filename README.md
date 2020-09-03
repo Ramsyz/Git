@@ -44,13 +44,13 @@ copy the push existing repo line
 
 ##### Push the existing repo from terminal
 git remote add origin https://github.com/........
-Next push master branch to origin url
+Next push master branch to origin url.
 git push -u origin master ---> shows message as done.
 now our local master and remote master are connected.
 Next go to github and refresh github we can see our changes are published.
 
 We can edit readme file in github and submit committed changes. 
-To pull changes to local master/machine --> git pull
+To pull changes to local master/machine --> git pull.
 
 ##### Git clone
 to clone git to editor,ide.

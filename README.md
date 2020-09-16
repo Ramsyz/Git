@@ -104,6 +104,28 @@ Shifting between branches
 
 `git checkout -`
 
+##### Push branch work 
+
+`git push`
+
+`git push --set-upstream origin branchname` -----> now we're uptodate on new branch on github
+
+Go to github and refresh page
+
+now we can see two branches in Branch tag
+
+Next Pull request in Github
+
+Click on Pull request and create pull request, click
+
+##### Now Merge
+
+confirm merge
+
+You can delete your branch or leave it
+
+now our master should be updated
+
 ##### Merge branches
 
  presently your in master branch, Merge two branches
